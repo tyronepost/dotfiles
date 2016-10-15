@@ -17,6 +17,8 @@ filetype plugin indent on
 syntax enable
 set background=dark
 colorscheme solarized
+set expandtab
+set tabstop=2
 
 " key mappings
 noremap <silent> <Leader>n :NERDTreeToggle <Enter>
