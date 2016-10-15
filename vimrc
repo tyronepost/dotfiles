@@ -1,15 +1,21 @@
+" vundle 
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-
-" nerdtree plugin and config
 Plugin 'scrooloose/nerdtree'
-noremap <silent> <Leader>n :NERDTreeToggle <Enter>
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 filetype plugin indent on
+
+" general config
+syntax enable
+set background=dark
+colorscheme solarized
+
+" key mappings
+noremap <silent> <Leader>n :NERDTreeToggle <Enter>
