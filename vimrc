@@ -8,7 +8,9 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
+
 Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 filetype plugin indent on
