@@ -21,6 +21,7 @@ set background=dark
 colorscheme solarized
 set expandtab
 set tabstop=2
+set shiftwidth=2
 
 " key mappings
 noremap <silent> <Leader>n :NERDTreeToggle <Enter>
