@@ -16,10 +16,14 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
+Plugin 'tpope/vim-fugitive'
 
 "javascript plugins
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'pangloss/vim-javascript'
+
+"ruby plugins
+Plugin 'vim-ruby/vim-ruby'
 
 call vundle#end()
 filetype plugin indent on
@@ -31,6 +35,6 @@ colorscheme solarized
 set expandtab
 set tabstop=2
 set shiftwidth=2
-
+set number
 " key mappings
 noremap <silent> <Leader>n :NERDTreeToggle <Enter>
