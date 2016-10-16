@@ -7,6 +7,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'altercation/vim-colors-solarized'
 
 Plugin 'mustache/vim-mustache-handlebars'
