@@ -17,6 +17,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'tpope/vim-fugitive'
+Plugin 'ervandew/supertab'
 
 "javascript plugins
 Plugin 'mustache/vim-mustache-handlebars'
