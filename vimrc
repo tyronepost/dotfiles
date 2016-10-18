@@ -26,6 +26,9 @@ Plugin 'pangloss/vim-javascript'
 "ruby plugins
 Plugin 'vim-ruby/vim-ruby'
 
+"elixir plugins
+Plugin 'elixir-lang/vim-elixir'
+
 call vundle#end()
 filetype plugin indent on
 
