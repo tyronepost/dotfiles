@@ -18,6 +18,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'tpope/vim-fugitive'
 Plugin 'ervandew/supertab'
+Plugin 'jeetsukumaran/vim-buffergator'
 
 "javascript plugins
 Plugin 'mustache/vim-mustache-handlebars'
