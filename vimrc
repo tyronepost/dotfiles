@@ -12,6 +12,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'jpo/vim-railscasts-theme'
+Plugin 'dracula/vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
@@ -35,8 +37,7 @@ filetype plugin indent on
 
 " general config
 syntax enable
-set background=dark
-colorscheme solarized
+color dracula
 set expandtab
 set tabstop=2
 set shiftwidth=2
