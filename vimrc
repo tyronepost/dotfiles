@@ -37,11 +37,15 @@ filetype plugin indent on
 
 " general config
 syntax enable
-color dracula
+color railscasts
 set expandtab
 set tabstop=2
 set shiftwidth=2
 set number
+if has('gui_running')
+  set guifont=Monaco:h12
+endif
+
 " key mappings
 noremap <silent> <Leader>n :NERDTreeToggle <Enter>
 
