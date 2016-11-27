@@ -11,9 +11,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'jpo/vim-railscasts-theme'
-Plugin 'dracula/vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
@@ -22,6 +19,11 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'ervandew/supertab'
 Plugin 'jeetsukumaran/vim-buffergator'
+
+"themes 
+Plugin 'dracula/vim'
+Plugin 'jpo/vim-railscasts-theme'
+Plugin 'altercation/vim-colors-solarized'
 
 "javascript plugins
 Plugin 'mustache/vim-mustache-handlebars'
