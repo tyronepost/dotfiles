@@ -19,6 +19,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-commentary'
 Plugin 'ervandew/supertab'
 Plugin 'jeetsukumaran/vim-buffergator'
 
