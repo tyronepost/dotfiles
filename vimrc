@@ -29,6 +29,7 @@ Plugin 'pangloss/vim-javascript'
 
 "ruby plugins
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
 
 "elixir plugins
 Plugin 'elixir-lang/vim-elixir'
