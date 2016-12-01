@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/tyronepost/.oh-my-zsh
+export PATH="$PATH:`yarn global bin`"
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
