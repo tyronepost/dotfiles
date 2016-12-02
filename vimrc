@@ -19,6 +19,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'ervandew/supertab'
 Plugin 'jeetsukumaran/vim-buffergator'
+Plugin 'vim-syntastic/syntastic'
 
 "themes 
 Plugin 'jpo/vim-railscasts-theme'
