@@ -21,9 +21,9 @@ Plugin 'ervandew/supertab'
 Plugin 'jeetsukumaran/vim-buffergator'
 
 "themes 
-Plugin 'dracula/vim'
 Plugin 'jpo/vim-railscasts-theme'
-Plugin 'altercation/vim-colors-solarized'
+" Plugin 'dracula/vim'
+" Plugin 'altercation/vim-colors-solarized'
 
 "javascript plugins
 Plugin 'mustache/vim-mustache-handlebars'
@@ -34,7 +34,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 
 "elixir plugins
-Plugin 'elixir-lang/vim-elixir'
+" Plugin 'elixir-lang/vim-elixir'
 
 call vundle#end()
 filetype plugin indent on
