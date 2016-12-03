@@ -22,8 +22,8 @@ Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'vim-syntastic/syntastic'
 
 "themes 
-Plugin 'jpo/vim-railscasts-theme'
-" Plugin 'dracula/vim'
+" Plugin 'jpo/vim-railscasts-theme'
+Plugin 'dracula/vim'
 " Plugin 'altercation/vim-colors-solarized'
 
 "javascript plugins
@@ -42,7 +42,7 @@ filetype plugin indent on
 
 " general config
 syntax enable
-color railscasts
+color dracula
 set expandtab
 set tabstop=2
 set shiftwidth=2
