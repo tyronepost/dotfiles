@@ -56,5 +56,5 @@ noremap <silent> <Leader>n :NERDTreeToggle <Enter>
 
 " ctrlp config
 let g:ctrlp_custom_ignore = {
-  \ 'dir': 'bower_components\|node_modules\|tmp\|dist'
+  \ 'dir': 'bower_components\|node_modules\|tmp\|dist|bin'
   \ }
