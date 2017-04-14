@@ -38,6 +38,9 @@ Plugin 'tpope/vim-rails'
 "elixir plugins
 " Plugin 'elixir-lang/vim-elixir'
 
+"racket plugins
+Plugin 'wlangstroth/vim-racket'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -59,3 +62,6 @@ noremap <silent> <Leader>n :NERDTreeToggle <Enter>
 let g:ctrlp_custom_ignore = {
   \ 'dir': 'bower_components\|node_modules\|tmp\|dist|bin'
   \ }
+
+" syntastic settings
+let g:syntastic_enable_racket_racket_checker = 1
