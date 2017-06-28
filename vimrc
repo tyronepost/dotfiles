@@ -30,6 +30,7 @@ Plugin 'morhetz/gruvbox'
 "javascript plugins
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 "ruby plugins
 Plugin 'vim-ruby/vim-ruby'
@@ -37,6 +38,9 @@ Plugin 'tpope/vim-rails'
 
 "elixir plugins
 " Plugin 'elixir-lang/vim-elixir'
+
+" html plugins
+Plugin 'mattn/emmet-vim'
 
 "racket plugins
 Plugin 'wlangstroth/vim-racket'
