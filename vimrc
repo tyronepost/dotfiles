@@ -22,10 +22,11 @@ Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'vim-syntastic/syntastic'
 
 "themes 
-" Plugin 'jpo/vim-railscasts-theme'
-" Plugin 'dracula/vim'
-" Plugin 'altercation/vim-colors-solarized'
-Plugin 'morhetz/gruvbox'
+"Plugin 'jpo/vim-railscasts-theme'
+"Plugin 'dracula/vim'
+"Plugin 'altercation/vim-colors-solarized'
+" Plugin 'morhetz/gruvbox'
+Plugin 'chriskempson/base16-vim'
 
 "javascript plugins
 Plugin 'mustache/vim-mustache-handlebars'
@@ -39,9 +40,6 @@ Plugin 'tpope/vim-rails'
 "elixir plugins
 " Plugin 'elixir-lang/vim-elixir'
 
-" html plugins
-Plugin 'mattn/emmet-vim'
-
 "racket plugins
 Plugin 'wlangstroth/vim-racket'
 
@@ -50,7 +48,6 @@ filetype plugin indent on
 
 " general config
 syntax enable
-color gruvbox 
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -69,3 +66,22 @@ let g:ctrlp_custom_ignore = {
 
 " syntastic settings
 let g:syntastic_enable_racket_racket_checker = 1
+
+" colors
+set background=dark
+colorscheme base16-railscasts
+
+highlight clear SignColumn
+highlight VertSplit    ctermbg=236
+highlight ColorColumn  ctermbg=237
+highlight LineNr       ctermbg=236 ctermfg=240
+highlight CursorLineNr ctermbg=236 ctermfg=240
+highlight CursorLine   ctermbg=236
+highlight StatusLineNC ctermbg=238 ctermfg=0
+highlight StatusLine   ctermbg=240 ctermfg=12
+highlight IncSearch    ctermbg=3   ctermfg=1
+highlight Search       ctermbg=1   ctermfg=3
+highlight Visual       ctermbg=3   ctermfg=0
+highlight Pmenu        ctermbg=240 ctermfg=12
+highlight PmenuSel     ctermbg=3   ctermfg=1
+highlight SpellBad     ctermbg=0   ctermfg=1
