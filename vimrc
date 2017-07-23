@@ -43,6 +43,9 @@ Plugin 'tpope/vim-rails'
 "racket plugins
 Plugin 'wlangstroth/vim-racket'
 
+" clojure plugins
+Plugin 'tpope/vim-fireplace'
+
 call vundle#end()
 filetype plugin indent on
 

@@ -2,6 +2,10 @@
 export ZSH=/Users/tyronepost/.oh-my-zsh
 export PATH="$PATH:`yarn global bin`:/Applications/Racket v6.8/bin"
 
+# Clojure setup
+export CLOJURE_PATH="/Users/tyronepost/clojure/bin"
+export PATH="$PATH:$CLOJURE_PATH"
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
