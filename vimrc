@@ -14,6 +14,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
+Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
@@ -23,10 +24,10 @@ Plugin 'vim-syntastic/syntastic'
 
 "themes 
 "Plugin 'jpo/vim-railscasts-theme'
-"Plugin 'dracula/vim'
+Plugin 'dracula/vim'
 "Plugin 'altercation/vim-colors-solarized'
 " Plugin 'morhetz/gruvbox'
-Plugin 'chriskempson/base16-vim'
+" Plugin 'chriskempson/base16-vim'
 
 "javascript plugins
 Plugin 'mustache/vim-mustache-handlebars'
@@ -72,7 +73,8 @@ let g:syntastic_enable_racket_racket_checker = 1
 
 " colors
 set background=dark
-colorscheme base16-railscasts
+"colorscheme base16-railscasts
+colorscheme dracula 
 
 highlight clear SignColumn
 highlight VertSplit    ctermbg=236
