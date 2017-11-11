@@ -26,8 +26,9 @@ Plugin 'vim-syntastic/syntastic'
 "Plugin 'jpo/vim-railscasts-theme'
 Plugin 'dracula/vim'
 "Plugin 'altercation/vim-colors-solarized'
-" Plugin 'morhetz/gruvbox'
+"Plugin 'morhetz/gruvbox'
 " Plugin 'chriskempson/base16-vim'
+"Plugin 'flazz/vim-colorschemes'
 
 "javascript plugins
 Plugin 'mustache/vim-mustache-handlebars'
@@ -75,6 +76,8 @@ let g:syntastic_enable_racket_racket_checker = 1
 set background=dark
 "colorscheme base16-railscasts
 colorscheme dracula 
+"colorscheme gruvbox
+"colorscheme codeschool
 
 highlight clear SignColumn
 highlight VertSplit    ctermbg=236
