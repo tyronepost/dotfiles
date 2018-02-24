@@ -91,3 +91,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(rbenv init -)"
+export PATH="/usr/local/opt/elasticsearch@5.6/bin:$PATH"
