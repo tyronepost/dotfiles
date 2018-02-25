@@ -1,4 +1,5 @@
 " Plug config
+let mapleader = "'"
 
 call plug#begin('~/.vim/plugged')
   Plug 'flazz/vim-colorschemes'
@@ -12,3 +13,7 @@ noremap <silent> <Leader>n :NERDTreeToggle <Enter>
 
 " General config
 colorscheme brogrammer
+
+" Nerdtree config
+let g:NERDTreeWinPos = "right"
+
