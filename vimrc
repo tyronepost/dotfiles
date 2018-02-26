@@ -7,6 +7,11 @@ call plug#begin('~/.vim/plugged')
   Plug 'scrooloose/nerdcommenter' 
   Plug 'ctrlpvim/ctrlp.vim'
   Plug 'mileszs/ack.vim'
+
+  " code plugins
+  Plug 'sirver/ultisnips'
+  Plug 'honza/vim-snippets' 
+  Plug 'mattn/emmet-vim'
 call plug#end()
 
 " key mappings
