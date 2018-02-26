@@ -24,6 +24,8 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
+inoremap {<cr> {<cr>}<c-o>O
+
 " Nerdtree config
 let g:NERDTreeWinPos = "right"
 
