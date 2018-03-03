@@ -21,6 +21,7 @@ call plug#end()
 
 " key mappings
 noremap <silent> <Leader>n :NERDTreeToggle <Enter>
+noremap <F5> :!open %<CR><CR>
 
 " General config
 set nocompatible
