@@ -3,7 +3,7 @@ set nocompatible
 set number
 syntax on
 
-let mapleader = "'"
+let mapleader = " "
 
 " Plug config
 call plug#begin('~/.vim/plugged')
@@ -27,6 +27,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-commentary'
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-dispatch'
+  Plug 'tpope/vim-eunuch'
 
   " Javascript plugins
   Plug 'pangloss/vim-javascript'
@@ -56,10 +57,10 @@ set expandtab
 set wildignore+=*/node_modules/*,*/tmp/*
 
 " Test config
-nmap <silent> t<C-n> :TestNearest<CR> " t Ctrl+n
-nmap <silent> t<C-f> :TestFile<CR>    " t Ctrl+f
-nmap <silent> t<C-a> :TestSuite<CR>   " t Ctrl+s
-nmap <silent> t<C-l> :TestLast<CR>    " t Ctrl+l
-nmap <silent> t<C-g> :TestVisit<CR>   " t Ctrl+g
+nnoremap <silent> <Leader>t :TestFile<CR>
+nnoremap <silent> <Leader>s :TestNearest<CR>
+nnoremap <silent> <Leader>l :TestLast<CR>
+nnoremap <silent> <Leader>a :TestSuite<CR>
+nnoremap <silent> <Leader>gt :TestVisit<CR>
 
 let test#strategy = "vimux"
