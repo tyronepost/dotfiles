@@ -21,13 +21,17 @@ call plug#begin('~/.vim/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'ap/vim-css-color'
   Plug 'ervandew/supertab'
-  Plug 'tpope/vim-endwise'
-  Plug 'tpope/vim-sensible'
-  Plug 'tpope/vim-vinegar'
+  Plug 'tpope/vim-bundler'
   Plug 'tpope/vim-commentary'
-  Plug 'tpope/vim-rails'
   Plug 'tpope/vim-dispatch'
+  Plug 'tpope/vim-endwise'
   Plug 'tpope/vim-eunuch'
+  Plug 'tpope/vim-rails'
+  Plug 'tpope/vim-rake'
+  Plug 'tpope/vim-repeat'
+  Plug 'tpope/vim-sensible'
+  Plug 'tpope/vim-surround'
+  Plug 'tpope/vim-vinegar'
 
   " Javascript plugins
   Plug 'pangloss/vim-javascript'
@@ -39,6 +43,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'janko-m/vim-test'
 
   Plug 'benmills/vimux'
+
+  Plug 'w0rp/ale'
 call plug#end()
 
 " Colorscheme
