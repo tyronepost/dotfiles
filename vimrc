@@ -9,6 +9,7 @@ let mapleader = " "
 call plug#begin('~/.vim/plugged')
   Plug 'morhetz/gruvbox'
   Plug 'ctrlpvim/ctrlp.vim'
+  Plug 'vim-scripts/bufexplorer.zip'
   Plug 'mileszs/ack.vim'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
@@ -43,7 +44,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'janko-m/vim-test'
 
   Plug 'benmills/vimux'
-
   Plug 'w0rp/ale'
 call plug#end()
 
