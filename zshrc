@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/tyronepost/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 export PATH="$PATH:`yarn global bin`:/Applications/Racket v6.8/bin"
 
 # Clojure setup
@@ -92,3 +92,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(rbenv init -)"
 export PATH="/usr/local/opt/elasticsearch@5.6/bin:$PATH"
+
+source ~/work_zshrc
