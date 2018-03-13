@@ -92,3 +92,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(rbenv init -)"
 export PATH="/usr/local/opt/elasticsearch@5.6/bin:$PATH"
+
+alias emacs="/usr/local/Cellar/emacs-plus/25.3/Emacs.app/Contents/MacOS/Emacs -nw"
