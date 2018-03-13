@@ -94,3 +94,4 @@ eval "$(rbenv init -)"
 export PATH="/usr/local/opt/elasticsearch@5.6/bin:$PATH"
 
 source ~/work_zshrc
+alias emacs="/usr/local/Cellar/emacs-plus/25.3/Emacs.app/Contents/MacOS/Emacs -nw"
