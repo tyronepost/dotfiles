@@ -20,7 +20,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'garbas/vim-snipmate'
   Plug 'honza/vim-snippets' 
   Plug 'mattn/emmet-vim'
-  Plug 'ap/vim-css-color'
+  " Plug 'ap/vim-css-color'
   Plug 'ervandew/supertab'
   Plug 'tpope/vim-bundler'
   Plug 'tpope/vim-commentary'
