@@ -9,6 +9,7 @@ let mapleader = " "
 call plug#begin('~/.vim/plugged')
   Plug 'morhetz/gruvbox'
   Plug 'ctrlpvim/ctrlp.vim'
+  Plug 'nixprime/cpsm', { 'do': 'env PY3=ON ./install.sh' }
   Plug 'vim-scripts/bufexplorer.zip'
   Plug 'mileszs/ack.vim'
   Plug 'vim-airline/vim-airline'
@@ -19,7 +20,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'MarcWeber/vim-addon-mw-utils'
   Plug 'garbas/vim-snipmate'
   Plug 'honza/vim-snippets' 
-  Plug 'mattn/emmet-vim'
+  " Plug 'mattn/emmet-vim'
   " Plug 'ap/vim-css-color'
   Plug 'ervandew/supertab'
   Plug 'tpope/vim-bundler'
@@ -70,15 +71,19 @@ nnoremap <silent> <Leader>a :TestSuite<CR>
 nnoremap <silent> <Leader>gt :TestVisit<CR>
 
 let test#strategy = "vimux"
-" let g:ctrlp_user_command = 'ack %s 
-" The Silver Searcher
-if executable('ag')
-  " Use ag over grep
-  set grepprg=ag\ --nogroup\ --nocolor
 
-  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
-  " ag is fast enough that CtrlP doesn't need to cache
-  let g:ctrlp_use_caching = 0
-endif
+let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
+let g:ctrlp_use_caching = 0
+let g:ctrlp_match_func = { 'match': 'cpsm#CtrlPMatch' }
+
+" if executable('ag')
+"   " Use ag over grep
+"   set grepprg=ag\ --nogroup\ --nocolor
+
+"   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+"   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+"   " ag is fast enough that CtrlP doesn't need to cache
+"   let g:ctrlp_use_caching = 0
+" endif
