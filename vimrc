@@ -18,8 +18,9 @@ call plug#begin('~/.vim/plugged')
   " code plugins
   Plug 'tomtom/tlib_vim'
   Plug 'MarcWeber/vim-addon-mw-utils'
-  Plug 'garbas/vim-snipmate'
-  Plug 'honza/vim-snippets' 
+  " Plug 'garbas/vim-snipmate'
+  Plug 'SirVer/ultisnips'
+  " Plug 'honza/vim-snippets' 
   " Plug 'mattn/emmet-vim'
   " Plug 'ap/vim-css-color'
   Plug 'ervandew/supertab'
@@ -77,13 +78,11 @@ let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
 let g:ctrlp_use_caching = 0
 let g:ctrlp_match_func = { 'match': 'cpsm#CtrlPMatch' }
 
-" if executable('ag')
-"   " Use ag over grep
-"   set grepprg=ag\ --nogroup\ --nocolor
+" let g:user_emmet_leader_key='<Tab>'
+" let g:user_emmet_settings = {
+"   \  'javascript.jsx' : {
+"     \      'extends' : 'jsx',
+"     \  },
+"   \}
 
-"   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-"   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-
-"   " ag is fast enough that CtrlP doesn't need to cache
-"   let g:ctrlp_use_caching = 0
-" endif
+let g:UltiSnipsSnippetDirectories = ['~/dotfiles/UltiSnips', 'UltiSnips']
