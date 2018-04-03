@@ -86,3 +86,6 @@ let g:ctrlp_match_func = { 'match': 'cpsm#CtrlPMatch' }
 "   \}
 
 let g:UltiSnipsSnippetDirectories = ['~/dotfiles/UltiSnips', 'UltiSnips']
+let g:UltiSnipsEditSplit="vertical"
+
+nnoremap <silent> <Leader>u :UltiSnipsEdit<CR>
