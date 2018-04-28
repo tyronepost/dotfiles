@@ -17,6 +17,7 @@ call plug#begin('~/.vim/plugged')
 
   " code plugins
   Plug 'SirVer/ultisnips'
+  " Plug 'honza/vim-snippets'
   Plug 'ervandew/supertab'
   Plug 'tpope/vim-bundler'
   Plug 'tpope/vim-commentary'
@@ -29,6 +30,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-sensible'
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-vinegar'
+  Plug 'jiangmiao/auto-pairs'
 
   " Javascript plugins
   Plug 'pangloss/vim-javascript'
@@ -67,13 +69,13 @@ nnoremap <silent> <Leader>gt :TestVisit<CR>
 
 let test#strategy = "vimux"
 
-
 let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
 let g:ctrlp_use_caching = 0
 let g:ctrlp_match_func = { 'match': 'cpsm#CtrlPMatch' }
 
+" UltiSnipsConfig
 let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
-" let g:UltiSnipsSnippetsDir="~/.vim/UltiSnips"
 let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
 
 nnoremap <silent> <Leader>u :UltiSnipsEdit<CR>
