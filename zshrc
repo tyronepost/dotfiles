@@ -1,3 +1,6 @@
+#  workaround for issue with pycharm terminal not including /usr/local/bin in $PATH
+export PATH=/usr/local/bin:$PATH
+
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 export PATH="$PATH:`yarn global bin`:/Applications/Racket v6.8/bin"
@@ -9,6 +12,10 @@ export PATH="$PATH:$CLOJURE_PATH"
 # Elixir setup
 export ELIXIR_PATH="/usr/local/Cellar/elixir/1.5.2"
 
+
+# Python setup
+export PATH=/usr/local/opt/python/libexec/bin:$PATH
+#
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each

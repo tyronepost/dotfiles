@@ -8,6 +8,7 @@ let mapleader = " "
 " Plug config
 call plug#begin('~/.vim/plugged')
   Plug 'morhetz/gruvbox'
+  " Plug 'dracula/vim', { 'as': 'dracula'  }
   Plug 'ctrlpvim/ctrlp.vim'
   Plug 'nixprime/cpsm', { 'do': 'env PY3=ON ./install.sh' }
   Plug 'vim-scripts/bufexplorer.zip'
@@ -47,7 +48,7 @@ call plug#end()
 
 " Colorscheme
 colorscheme gruvbox
-
+" colorscheme dracula
 " key mappings
 noremap <F5> :!open %<CR><CR>
 
